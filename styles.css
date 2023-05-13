@@ -1,0 +1,311 @@
+body {
+  font-family: "lato", sans-serif;
+}
+
+/*div box color start*/
+
+body {
+  background-color: rgb(193, 203, 195);
+
+}
+
+#BoxCategory_1 {
+  background-color: rgb(0, 202, 202);
+}
+
+#BoxCategory_2 {
+  background-color: rgba(247, 0, 201, 0.629);
+}
+
+#BoxCategory_3 {
+  background-color: rgba(0, 4, 254, 0.629);
+}
+
+#BoxCategory_4 {
+  background-color: rgba(0, 193, 96, 0.629);
+}
+
+#BoxCategory_5 {
+  background-color: rgba(124, 1, 1, 0.629);
+}
+
+
+/*div box color end*/
+.BoxCategory4 {
+  position: absolute;
+  top: 30px;
+  left: 300px;
+}
+
+.square {
+  width: 68px;
+  height: 270px;
+  background-color: rgb(193, 203, 195);
+  position: absolute;
+  position: fixed;
+  top: 150px;
+  left: 0px;
+  z-index: -1;
+}
+
+.fontsbig1 {
+  font-size: 23px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: fixed;
+}
+
+/* fonts big 2 start*/
+
+.fontsbig2 {
+  font-size: 15PX;
+  font-family: 'Times New Roman', Times, serif;
+  position: fixed;
+  color: #424243;
+  font-weight: 700;
+}
+
+.fontsbig3 {
+  font-size: 15PX;
+  font-family: 'Times New Roman', Times, serif;
+  position: fixed;
+  color: #000000;
+  font-weight: 700;
+}
+
+.fontsbig3 a {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+}
+
+.fontsbig2 a {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  border-bottom: 1px solid transparent;
+  position: relative;
+  /* 需要设置相对定位，让动画生效 */
+  animation: slide-in 2.5s ease-in-out forwards;
+  /* 使用 slide-in 动画，持续时间 1s，缓动函数为 ease-in-out */
+
+}
+
+
+.fontsbig2 a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 2px;
+  background: #000000;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+
+.fontsbig2 a:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.fontsbig2 a:hover::before,
+.fontsbig2 a:hover::after {
+  animation: slide-in 0.6s ease-in-out forwards;
+}
+
+
+
+@keyframes slide-in {
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+/*font big 2 end*/
+/*page21 start*/
+.page2start {
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 1400px;
+  left: 500px;
+}
+
+/*page2 end*/
+.page21 {
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 1430px;
+  left: 500px;
+}
+
+#hayayaya {
+  position: absolute;
+}
+
+.hayayaya1 {
+  position: absolute;
+  top: 1630px;
+  left: 850px;
+}
+
+.fungustoppage {
+  position: absolute;
+  top: 1000;
+  left: 1000;
+
+}
+
+.why1 {
+  position: absolute;
+  top: 350px;
+  left: 1150px;
+}
+
+/*page3start*/
+
+
+
+.wordfordrawingfungus {
+  font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.wordfordrawingfungusforh {
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+
+
+
+.wordforphotofungus {
+  font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.wordforphotofungusforh {
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.vl {
+  border-left: 6px solid rgb(0, 0, 0);
+  height: 900px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.outline {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.overflow {
+  overflow: scroll;
+
+}
+
+.box1 {
+  font-size: x-small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 4155px;
+  left: 700px;
+
+}
+.box1 a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.box2 {
+  font-size: x-small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 4155px;
+  left: 1100px;
+
+}
+.box2 a{
+  text-decoration: none;
+  color: inherit;
+}
+.box3 {
+  font-size: x-small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 4505px;
+  left: 700px;
+
+}
+.box3 a{
+  text-decoration: none;
+  color: inherit;
+}
+.box4 {
+  font-size: x-small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 4505px;
+  left: 1100px;
+
+}
+.box4 a{
+  text-decoration: none;
+  color: inherit;
+}
+hr {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 1px;
+}
+.box5 {
+  font-size:small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  text-align: center;
+}
+.box6{
+align-items: center;
+
+}
+.wordforphotofungusforh4 {
+  font-size: small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #444444;
+}
+#artistpainter{
+
+}
+#artwork{
+
+}
+#contact{
+  
+}
+.turnback{
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #292828;
+  position:fixed;
+  top:600px;
+  left:1300px
+}
+.turnback a{
+  text-decoration: none;
+  color: inherit;
+}
